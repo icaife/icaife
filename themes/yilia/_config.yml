@@ -33,5 +33,5 @@ share: true
 duoshuo: true
 #是否开启云标签
 tagcloud: true
-#友情链接
-links: 友情链接
+#百度统计
+baidutongji: true
