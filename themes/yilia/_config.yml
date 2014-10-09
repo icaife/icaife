@@ -7,8 +7,8 @@ menu:
 
 # SubNav
 subnav:
-  github: "icaife.github.com"
-  weibo: "weibo.com/detectivecoder"
+  github: "https://github.com/icaife"
+  weibo: "http://weibo.com/detectivecoder"
   rss: "#"
   facebook: "#"
   # google: "#"
