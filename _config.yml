@@ -51,6 +51,7 @@ tag_map:
 archive: 2
 category: 2
 tag: 2
+nodejs: 2
 
 # Server
 ## Hexo uses Connect as a server
@@ -74,7 +75,7 @@ per_page: 10
 pagination_dir: page
 
 # Disqus
-disqus_shortname:
+disqus_shortname: 小菜
 
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins

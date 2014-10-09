@@ -1,6 +1,7 @@
 title: nodejs-module
-date: 2014-10-07 16:52:09
-tags: [nodejs,module,require,exports,module.exports] 
+date: 2014-10-02 16:52:09
+tags: [nodejs] 
+categories: nodejs 
 description: nodejs module
 ---
 ###require###
