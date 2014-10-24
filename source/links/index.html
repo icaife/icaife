@@ -1,5 +1,6 @@
 	<h1>友情链接</h1>
 	<style type="text/css">
+		/**{padding-left: 0;margin:0;}*/
 		.links{width: 100%;}
 		.links:after{content:'.';display:block;height:0;clear:both;overflow:hidden;}
 		.links .item{
@@ -31,7 +32,6 @@
             -moz-backface-visibility: hidden;
 		}
 		.links .item .face{
-
             transform: rotateY(0);
             -webkit-transform: rotateY(0);
             -moz-transform: rotateY(0);
@@ -47,6 +47,9 @@
             -moz-transform: rotateY(180deg);
             z-index: 1;
             border:1px solid gray;
+		}
+		.links .item:hover .card{
+			margin-top:-10px;
 		}
 		.links .item:hover .face{
 			transform: rotateY(-180deg);
@@ -75,7 +78,7 @@
 		}
 		.article-meta{display: none !important;}
 		.share{display: none !important;}
-		.article-entry{padding-right: 0 !important;}
+		.article-entry{padding-right: 0 !important}
 	</style>
 	<ul class="links">
 		<li class="item">
