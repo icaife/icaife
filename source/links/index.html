@@ -1,2 +1,133 @@
-<h1>TODO</h1>
-<h2>友情链接</h2>
+	<style type="text/css">
+		.links{width: 100%;}
+		.links:after{content:'.';display:block;height:0;clear:both;overflow:hidden;}
+		.links .item{
+				width:200px;
+				height:250px;
+				margin-left:30px;
+				margin-top:30px;
+				display: block;
+				position: relative;
+				float: left;
+		}
+		.links .item .card{
+            width: 100%;
+            height: 100%;
+            border-radius:5px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #000;
+            box-shadow:5px 5px #eee;
+            transform-style: preserve-3d;
+            transition: .8s ease-in-out ;
+            backface-visibility: hidden;
+            -webkit-transform-style: preserve-3d;
+            -webkit-transition: .8s ease-in-out ;
+            -webkit-backface-visibility: hidden;
+            -moz-transform-style: preserve-3d;
+            -moz-transition: .8s ease-in-out ;
+            -moz-backface-visibility: hidden;
+		}
+		.links .item .face{
+
+            transform: rotateY(0);
+            -webkit-transform: rotateY(0);
+            -moz-transform: rotateY(0);
+            z-index: 2;
+            background-position: center center;
+            background-size:cover;
+            background-repeat: no-repeat;
+            color:#fff;
+		}
+		.links .item .back{
+            transform: rotateY(180deg);
+            -webkit-transform: rotateY(180deg);
+            -moz-transform: rotateY(180deg);
+            z-index: 1;
+            border:1px solid gray;
+		}
+		.links .item:hover .face{
+			transform: rotateY(-180deg);
+			-webkit-transform: rotateY(-180deg);
+			-moz-transform: rotateY(-180deg);
+		}
+
+		.links .item:hover .back{
+			transform: rotateY(0);
+			-webkit-transform: rotateY(0);
+			-moz-transform: rotateY(0);
+		}
+
+		.links .item .card .intro-title{
+			text-align: center;
+			border-bottom:2px dashed #eee;
+			padding:10px 0;
+		}
+
+		.links .item .card .intro-content{
+			font-size:12px;
+			padding:10px;
+		}
+		.links .item .card .intro-link{
+			padding:10px;
+		}
+		.article-meta{display: none !important;}
+		.share{display: none !important;}
+	</style>
+	<ul class="links">
+		<li class="item">
+			<div class="card face" style="background-image:url(http://p5.qhimg.com/t01bc7da5a2c6e90308.jpg)">
+			&nbsp;
+			</div>
+			<div class="card back" >
+				<h4 class="intro-title">撸林</h4>
+				<p class="intro-content">撸壕是个傻逼！</p>
+				<p class="intro-link">
+					<a href="http://blog.51yuekan.com/" target="_blank">博客</a>
+					<a href="https://github.com/fegg" target="_blank">GitHub</a>
+				</p>
+			</div>
+		</li>
+
+		<li class="item">
+			<div class="card face" style="background-image:url(http://p9.qhimg.com/d/inn/b683806c/t01752f26a12f0c407d.jpg)">
+			&nbsp;
+			</div>
+			<div class="card back" >
+				<h4 class="intro-title">涛哥</h4>
+				<p class="intro-content">涛哥太骚了！</p>
+				<p class="intro-link">
+					<a href="http://weibo.com/u/2495462104" target="_blank">微博</a>
+					<a href="http://github.com/wujuntao" target="_blank">博客</a>
+				</p>
+			</div>
+		</li>
+		<li class="item">
+			<div class="card face" style="background-image:url(http://p0.qhimg.com/t01504b4f4de04fbb6d.png)">
+			&nbsp;
+			</div>
+			<div class="card back" >
+				<h4 class="intro-title">俊哥</h4>
+				<p class="intro-content">俊哥脸很大！</p>
+				<p class="intro-link">
+					<!-- <a href="#" target="_blank">微博</a>
+					<a href="#" target="_blank">博客</a> -->
+					此人太懒，什么也没留下！
+				</p>
+			</div>
+		</li>
+		<li class="item">
+			<div class="card face" style="background-image:url(http://p2.qhimg.com/t012f8a8b483f1feb2f.jpg)">
+			&nbsp;
+			</div>
+			<div class="card back" >
+				<h4 class="intro-title">隔壁老王</h4>
+				<p class="intro-content">隔壁老王！</p>
+				<p class="intro-link">
+					<a href="http://www.hacke2.cn/" target="_blank">博客</a>
+					<a href="https://github.com/hacke2" target="_blank">GitHub</a>
+				</p>
+			</div>
+		</li>
+	</ul>

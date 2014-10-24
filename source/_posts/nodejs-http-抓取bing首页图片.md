@@ -19,6 +19,7 @@ categories: nodejs
 接口地址中有三个主要参数，format、idx、n，format是输出格式，默认是xml，js就是json，idx，是返回距离今天之前的日期，0就是今天，1就是昨天，依次类推，n，不过n过大就不行了，是获取几张图片，1就只有今天的1张，2是今天加昨天的，依次类推。
 现在我们通过nodejs的http模块去访问这个接口，然后将图片输出在自己的页面上，正好也可以当作一个小练习。
 bingimg.js：
+	
 	var HTTP = require('http');
 	var URL = require('url');
 	

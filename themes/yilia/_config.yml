@@ -9,8 +9,8 @@ menu:
 subnav:
   github: "https://github.com/icaife"
   weibo: "http://weibo.com/detectivecoder"
-  rss: "#"
-  facebook: "#"
+  #rss: "#"
+  #facebook: "#"
   # google: "#"
   # twitter: "#"
   # linkedin: "#"
@@ -23,7 +23,7 @@ fancybox: true
 
 # Miscellaneous
 
-favicon: /favicon.png
+favicon: http://icaifeimg.qiniudn.com/favicon.png
 
 #你的头像
 avatar: "http://icaifeimg.qiniudn.com/ava.jpg"
