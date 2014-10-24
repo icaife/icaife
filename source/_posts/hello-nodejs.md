@@ -16,6 +16,7 @@ categories: nodejs
 ![](http://icaifeimg.qiniudn.com/hello-nodejs.png)
 ###一个简单的HTTP服务器###
 新建一个文件server.js,输入以下代码：
+
 	var http = require("http");//引入HTTP模块
 	
 	http.createServer(function(request, response) {

@@ -26,6 +26,7 @@ module.exports 也可以用来导出当前对象，但是和exports有点区别-
 
 ###主模块###
 在项目越来越庞大的时候，就可能出现很多模块，在编写程序的时候必然会出现require很多模块，这样不容易维护也不好管理，现在我们把常用的模块组成一个主模块，我的感觉就像java里面的包，在一个模块A中，将要用到的其他模块A、B全部require出来，然后通过exports导出，这样只要require主模块A就可以使用A和B模块了。
+
     var a = require('../modules/a');
 	var b = require('../modules/b.js');
 
