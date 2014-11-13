@@ -49,7 +49,7 @@
             border:1px solid gray;
 		}
 		.links .item:hover .card{
-			margin-top:-10px;
+			/*margin-top:-10px;*/
 		}
 		.links .item:hover .face{
 			transform: rotateY(-180deg);
@@ -78,7 +78,7 @@
 		}
 		.article-meta{display: none !important;}
 		.share{display: none !important;}
-		.article-entry{padding-right: 0 !important}
+		.article-entry{padding-right: 0 !important;padding-bottom: 80px;}
 	</style>
 	<ul class="links">
 		<li class="item">
@@ -160,3 +160,10 @@
 			</div>
 		</li>
 	</ul>
+	<script type="text/javascript">
+		$('.links').on('.item','touchstart',function(){
+			$(this).mouseover();
+		}).on('.item','touchend',function(){
+			$(this).mouseout();
+		});
+	</script>
