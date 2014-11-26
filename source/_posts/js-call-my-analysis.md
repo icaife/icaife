@@ -67,6 +67,9 @@ call 方法的 length 属性是 1。
 
 *call*方法是属于*Function.prototype*的，在声明函数的时候，每个函数是*Function*的一个实例，自然每个函数就带上了*call*方法，当然*call*也是一个函数，*call*也是*Function*的一个实例，*call.call*这是理所当然的。
 
+![](http://icaifeimg.qiniudn.com/Function.prototype.call.png)
+
+
 首先来看看第一题：
 
 	function f1(){
@@ -92,6 +95,10 @@ call 方法的 length 属性是 1。
 再来看看*f3.call(f2)*，根据*f1.call(f2)*的解释，在*f3*执行的时候,*f3*的*this*指向的是*f2*，记为*f3.this* -> *f2*，相当于*f2.f3()*，此时调用*f3*的应该是*f2*，由于*f3*是等于*f1.call*的，那么调用*f1.call*的应该是*f2*，即*f2.call()*;那么这儿自然就打印：
 
 	this is function f2!
+
+图示：
+
+![](http://icaifeimg.qiniudn.com/f1.call.call.png)
 
 OK，第一题就到这儿。
 
