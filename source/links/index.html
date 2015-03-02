@@ -48,16 +48,26 @@
             z-index: 1;
             border:1px solid gray;
 		}
-		.links .item:hover .card{
-			/*margin-top:-10px;*/
+
+/*		.links .item:hover .face{
+			transform: rotateY(-180deg);
+			-webkit-transform: rotateY(-180deg);
+			-moz-transform: rotateY(-180deg);
 		}
-		.links .item:hover .face{
+*/
+		.links .item.hover .face{
 			transform: rotateY(-180deg);
 			-webkit-transform: rotateY(-180deg);
 			-moz-transform: rotateY(-180deg);
 		}
 
-		.links .item:hover .back{
+/*		.links .item:hover .back{
+			transform: rotateY(0);
+			-webkit-transform: rotateY(0);
+			-moz-transform: rotateY(0);
+		}*/
+
+		.links .item.hover .back{
 			transform: rotateY(0);
 			-webkit-transform: rotateY(0);
 			-moz-transform: rotateY(0);
@@ -173,3 +183,17 @@
 			</div>
 		</li>
 	</ul>
+	<script>
+		$(function(){
+			var _timmer = 0;
+			$('.links').on('click','.item',function(){
+				var _this = $(this);
+				_this.siblings('.item').removeClass('hover');
+				_this.toggleClass('hover');
+			}).on('mouseenter','.item',function(){
+				$(this).addClass('hover');
+			}).on('mouseleave','.item',function(){
+				$(this).removeClass('hover');
+			});
+		});
+	</script>

@@ -31,7 +31,7 @@ categories: javascript
 
 ![](http://icaifeimg.qiniudn.com/chicken.gif)
 
-首先了解一下*call*方法，看看*ECMAScrip*t里面的解释：
+首先了解一下*call*方法，看看*ECMAScript*里面的解释：
 
 
 15.3.4.4 Function.prototype.call (thisArg [ , arg1 [ , arg2, … ] ] )
