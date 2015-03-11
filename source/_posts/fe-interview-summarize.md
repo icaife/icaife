@@ -5,17 +5,17 @@ categories: 面试题
 ---
 貌似最近找工作的人有点多啊，大家都要面试，这是我个人总结的一些前端面试题，希望对大家面试有一些帮助，还在总结中，to be continued。。。
  
-
 1. 什么是HTML？
+答：
 2. DOCTYPE的作用？严格模式与混杂模式，如何触发？
 3. HTML语义化，以及好处。
 4. HTML5新增的几个标签，flash和HTML5的优缺点。
 5. ol dl ul 是什么东东？
 6. 对WEB标准的理解。
 7. 什么是web components？
-8. HTTP有哪几种方法？HTTP报文理解一下。HTTP握手？HTTP的
+8. HTTP请求有哪几种方法？HTTP报文理解一下。HTTP握手？HTTP的
 9. ajax是什么？由哪几种技术组成？ajax的优缺点？服务器怎么判断请求是一个ajax请求？不同浏览器之间创建xhr 差异？
-10. 浏览器的缓存策略。
+10. 浏览器的缓存策略，啥是协商缓存？
 <!--more-->
 11. HTTP状态码，200 302 304 403 404 500....
 12. cookie是什么？如何设置cookie，如何删除cookie，如何设置cookie 的存在时间？cookie优化？session是什么？cookie和session的区别。session的实现原理？如果浏览器禁用了cookie，session怎么实现的？（java中的servlet的生命周期？）
@@ -51,7 +51,19 @@ categories: 面试题
 42. querySelector 和 querySelectorAll是什么？区别？
 43. CSS选择器的优先级？简述一下css hack？有哪几种？IE6 IE7等，属性前缀 -webkit- -o- -ms-
 44. CSS3中，实现动画的方式有几种？
-45. HTML5本地存储？ TODO
+45. HTML5本地存储？ 可以用来做什么？
 46. amd cmd 规范？区别？
-47. 模块化开发？
-48. ..to be continued
+47. 模块化开发？CSS模块化开发？
+48. innerHTML，innerText，outerHTML,nodeValue
+49. 简单回答一下box-sizing。
+50. 简单介绍下jquery 的动画队列、jquery的selector原理。jquery extend
+51. 原生js中只有insertBefore,请问insertAfter怎么实现，有的浏览器不支持outerHTML，模拟一个outerHTML。
+52. reapp ionic angular less gulp react vue.js koajs requirejs seajs
+53. 栅格布局
+54. 行内元素如何设置宽高？有几种方法？
+55. 解释下css sprite
+56. 简述一下css hack。
+
+----------
+
+更新于2015年3月10日 17:03:51
